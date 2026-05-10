@@ -22,12 +22,19 @@ export default function SocialProofSection() {
   return (
     <section className=" py-20 relative bg-white overflow-hidden">
       {/* Background decoration */}
-      <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[var(--color-cobalt)]/5 rounded-full blur-[100px] -translate-y-1/2 translate-x-1/2" />
+      <div className="absolute top-0 right-0 w-150 h-150 bg-cobalt/5 rounded-full blur-[100px] -translate-y-1/2 
+        translate-x-1/2" />
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold mb-6 text-[#0A0F1C]">Trusted by Founders</h2>
-          <p className="text-[var(--color-tech-gray)] text-lg">
+          <h2
+            className="inline-flex items-center gap-2 px-16 py-6 rounded-full border-electric-green/40 
+              text-electric-green text-2xl font-medium bg-electric-green/5"
+          >
+            Trusted by Founders
+
+          </h2>
+          <p className="text-(--color-tech-gray) text-lg">
             Don't just take our word for it. Here is what ambitious teams have to say about building with DreamLab.
           </p>
         </div>
@@ -40,9 +47,10 @@ export default function SocialProofSection() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: idx * 0.2 }}
-              className="bg-[var(--color-cobalt)] p-8 rounded-2xl relative group hover:border-[var(--color-electric-green)]/50 transition-colors"
+              className="bg-(--color-cobalt) p-8 rounded-2xl relative group hover:border-color-electric-green/50 transition-colors"
             >
-              <Quote className="absolute top-6 right-8 text-white/10 group-hover:text-[var(--color-electric-green)]/100 transition-colors" size={64} />
+              <Quote className="absolute top-6 right-8 text-white/10 group-hover:text-color-electric-green/100 
+                  transition-colors" size={64} />
 
               <div className="mb-6 relative z-10">
                 <p className="text-lg text-white leading-relaxed italic">
@@ -52,12 +60,12 @@ export default function SocialProofSection() {
 
               <div className="flex items-center gap-4 relative z-10">
                 {/* Simulated generated avatar placeholder */}
-                <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-[var(--color-tech-gray-light)]">
+                <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-color-tech-gray-light">
                   <img src={testi.avatar} alt={testi.author} className="w-full h-full object-cover" />
                 </div>
                 <div>
                   <h4 className="font-bold text-white">{testi.author}</h4>
-                  <p className="text-[var(--color-tech-gray)] text-sm">{testi.role}</p>
+                  <p className="text-color-tech-gray text-sm">{testi.role}</p>
                 </div>
               </div>
             </motion.div>
