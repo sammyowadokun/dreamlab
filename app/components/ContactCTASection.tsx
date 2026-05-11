@@ -26,7 +26,7 @@ export default function ContactCTASection() {
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <Link
-                href="https://calendly.com/trydreamlab/consultation-with-dreamlab"
+                href="https://forms.gle/V9c1UfxCQk1sez4z6"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 px-8 py-4 bg-(--color-electric-green) hover:bg-(--color-electric-green-hover) text-navy font-semibold rounded-full transition-all transform hover:scale-105"

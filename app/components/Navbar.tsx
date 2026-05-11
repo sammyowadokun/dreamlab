@@ -69,7 +69,7 @@ export default function Navbar() {
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center">
             <a
-              href="https://calendly.com/trydreamlab/consultation-with-dreamlab"
+              href="https://forms.gle/V9c1UfxCQk1sez4z6"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-5 py-2.5 bg-(--color-electric-green) 
@@ -112,7 +112,7 @@ export default function Navbar() {
             {/* Mobile CTA */}
             <div className="pt-2 pb-1">
               <a
-                href="https://calendly.com/trydreamlab/consultation-with-dreamlab"
+                href="https://forms.gle/V9c1UfxCQk1sez4z6"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setIsOpen(false)}
