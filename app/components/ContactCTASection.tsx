@@ -90,10 +90,10 @@ export default function ContactCTASection() {
                 ></textarea>
               </div>
 
-              <Link href="#" className="w-full flex items-center justify-center gap-2 px-6 py-4 bg-navy text-white hover:bg-(--color-electric-green-hover) font-bold rounded-lg transition-colors">
+              <button type="submit" className="w-full flex items-center justify-center gap-2 px-6 py-4 bg-navy text-white hover:bg-(--color-electric-green-hover) font-bold rounded-lg transition-colors">
                 <Send size={18} />
                 Submit Idea
-              </Link>
+              </button>
             </form>
           </motion.div>
 
